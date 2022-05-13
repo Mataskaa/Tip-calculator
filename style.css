@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #c4e0e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.left {
+    width: 350px;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.bill {
+    width: 100%;
+    height: 50px;
+    /*background-color: green;*/
+}
+
+.input_container {
+    display: flex;
+    background-color: #f6f7fc;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input_container input {
+    background: none;
+    border: none;
+    outline: none;
+    text-align: end;
+    width: 100%;
+}
+
+.tip {
+    width: 100%;
+    height: 150px;
+    background-color: beige;
+}
+
+.people {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+
+.right {
+    width: 350px;
+    height: 100%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+}
+
+.topright {
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
